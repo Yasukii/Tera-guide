@@ -295,7 +295,7 @@ module.exports = function Tera_Guide(mod) {
 			bossWord = parseInt(event.message.match(/\d+/ig));
 		}
 	}
-	/*
+	
 	function sAbnormalityBegin(event) {
 		if (!Enabled || !whichmode) return;
 		// 金鳞船 亡靈閃電的襲擊 / 海洋魔女的氣息
@@ -311,10 +311,10 @@ mod.log("id:" + event.id + "target:"+ event.target + "source:" + event.source);
 				partyMakers = [];
 				UpdateMarkers();
 			}, 3500);
-			
+			/*
 			if (mod.game.me.is(event.target)) {
 				mod.setTimeout(() => { sendMessage(SI_TipMsg[2], 25); }, 2000);
-			}
+			}*/
 		}
 		
 		if (!mod.game.me.is(event.target)) return;
@@ -328,7 +328,7 @@ mod.log("id:" + event.id + "target:"+ event.target + "source:" + event.source);
 			myDeBuff = event.id;
 		}
 	}
-	*/
+	
 	function sAbnormalityEnd(event) {
 		if (!Enabled || !whichmode) return;
 		
