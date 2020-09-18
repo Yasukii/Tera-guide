@@ -1,0 +1,22 @@
+{
+    "files": {
+        "README.md": "4eed96cd8bc9d7787f467eece8c0be3102c811a3be9e1d745f3b6547d144cf47",
+        "boss.js": "c573525ba623e6db44020748e6014b1cd51d52c0c86e8ccc5bc2992d95872b73",
+        "index.js": "8c56d10ba9d39440d82e8267b263abe991a3c81c155b60a2d16bd3f68e712f2c",
+        "module.json": "ba8f429d8c0b105b38e1f622cf8f818dca56d95a92765a970053d65d03f66041"
+    },
+    "defs": {
+        "S_ABNORMALITY_BEGIN": 4,
+        "S_ABNORMALITY_END": 1,
+        "S_ACTION_STAGE": 9,
+        "S_BOSS_GAGE_INFO": 3,
+        "S_CHAT": 3,
+        "S_CREATURE_ROTATE": 2,
+        "S_DUNGEON_EVENT_MESSAGE": 2,
+        "S_LEAVE_PARTY": 1,
+        "S_LEAVE_PARTY_MEMBER": 2,
+        "S_PARTY_MARKER": 1,
+        "S_PARTY_MEMBER_LIST": 7,
+        "S_QUEST_BALLOON": 1
+    }
+}
